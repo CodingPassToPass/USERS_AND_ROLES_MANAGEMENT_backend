@@ -1,5 +1,4 @@
 const { Schema, model, default: mongoose} = require("mongoose");
-const bcrypt = require("bcrypt");
 
 const userSchema = Schema({
     username:{
